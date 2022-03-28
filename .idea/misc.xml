@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/dell/IoTEx/app/src/main/res/drawable/background_color.xml" value="0.1" />
+        <entry key="..\:/Users/dell/IoTEx/app/src/main/res/drawable/button_selector.xml" value="0.16197916666666667" />
+        <entry key="..\:/Users/dell/IoTEx/app/src/main/res/drawable/ic_launcher_background.xml" value="0.1" />
+        <entry key="..\:/Users/dell/IoTEx/app/src/main/res/drawable/vien.xml" value="0.12430555555555556" />
+        <entry key="..\:/Users/dell/IoTEx/app/src/main/res/drawable/vien_trans_all.xml" value="0.150390625" />
+        <entry key="..\:/Users/dell/IoTEx/app/src/main/res/layout/activity_main.xml" value="0.16666666666666666" />
+        <entry key="..\:/Users/dell/IoTEx/app/src/main/res/layout/activity_signup.xml" value="0.22" />
+        <entry key="..\:/Users/dell/IoTEx/app/src/main/res/layout/dialog_timepicker.xml" value="0.16666666666666666" />
+        <entry key="..\:/Users/dell/IoTEx/app/src/main/res/layout/temp_choose.xml" value="0.16666666666666666" />
+        <entry key="..\:/Users/dell/IoTEx/app/src/main/res/layout/test.xml" value="0.16666666666666666" />
+        <entry key="..\:/Users/dell/IoTEx/app/src/main/res/layout/total_room.xml" value="0.1" />
+        <entry key="..\:/Users/dell/IoTEx/app/src/main/res/layout/user_fire.xml" value="0.3333333333333333" />
+        <entry key="..\:/Users/dell/IoTEx/app/src/main/res/layout/user_forgotpsw.xml" value="0.16666666666666666" />
+        <entry key="..\:/Users/dell/IoTEx/app/src/main/res/layout/user_light.xml" value="0.22" />
+        <entry key="..\:/Users/dell/IoTEx/app/src/main/res/layout/user_main_activity.xml" value="0.16666666666666666" />
+        <entry key="..\:/Users/dell/IoTEx/app/src/main/res/layout/user_main_activity_test.xml" value="0.13333333333333333" />
+        <entry key="..\:/Users/dell/IoTEx/app/src/main/res/layout/user_temhum.xml" value="0.22" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+  <component name="VisualizationToolProject">
+    <option name="state">
+      <ProjectState>
+        <option name="scale" value="0.22" />
+      </ProjectState>
+    </option>
+  </component>
+</project>

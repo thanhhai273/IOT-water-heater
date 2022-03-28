@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center">
+    <ImageView
+        android:id="@+id/imageView7"
+        android:layout_alignParentTop="true"
+        android:layout_centerVertical="true"
+        android:layout_width="500dp"
+        android:layout_height="197dp"
+        app:srcCompat="@drawable/clock1" />
+
+    <ImageView
+        android:id="@+id/btn_back_dialog"
+        android:layout_width="39dp"
+        android:layout_height="57dp"
+        android:clickable="true"
+        android:focusable="true"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.043"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.019"
+        app:srcCompat="@drawable/left_arrow" />
+
+    <RadioGroup
+        android:id="@+id/radio_group"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <RadioButton
+            android:id="@+id/radio_buttonOn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Daily Time On" />
+
+        <RadioButton
+            android:id="@+id/radio_buttonOff"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Daily Time Off" />
+    </RadioGroup>
+
+    <TextView
+        android:id="@+id/txtcenter"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"/>
+
+
+    <RelativeLayout
+
+        android:id="@+id/vien1"
+        android:layout_width="130dp"
+        android:layout_height="75dp"
+        android:layout_below="@id/txtcenter"
+        android:layout_marginStart="15dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginEnd="15dp"
+        android:layout_marginBottom="15dp"
+        android:layout_toRightOf="@id/txtcenter"
+        android:background="@drawable/vien_trans_all">
+
+        <TextView
+            android:id="@+id/textView_start"
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:layout_marginStart="15dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginBottom="15dp"
+            android:gravity="center"
+            android:textSize="20sp" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/vien2"
+        android:layout_width="130dp"
+        android:layout_height="75dp"
+        android:layout_below="@id/txtcenter"
+        android:layout_marginStart="15dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginEnd="15dp"
+        android:layout_marginBottom="15dp"
+        android:layout_toStartOf="@id/txtcenter"
+        android:background="@drawable/vien_trans_all"
+        android:clickable="true"
+        android:focusable="true">
+
+
+        <Button
+            android:id="@+id/button_start"
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:layout_marginStart="15dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginEnd="15dp"
+            android:layout_marginBottom="15dp"
+            android:text="Start" />
+    </RelativeLayout>
+
+
+    <RelativeLayout
+        android:id="@+id/vien3"
+        android:layout_width="130dp"
+        android:layout_height="75dp"
+        android:layout_below="@id/txtcenter"
+        android:layout_marginStart="15dp"
+        android:layout_marginTop="130dp"
+        android:layout_marginEnd="15dp"
+        android:layout_marginBottom="15dp"
+        android:layout_toRightOf="@id/txtcenter"
+        android:background="@drawable/vien_trans_all">
+
+        <TextView
+            android:id="@+id/textView_end"
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:layout_marginStart="15dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginEnd="15dp"
+            android:layout_marginBottom="15dp"
+            android:gravity="center"
+            android:textSize="20sp" />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/vien4"
+        android:layout_width="130dp"
+        android:layout_height="75dp"
+        android:layout_below="@id/txtcenter"
+        android:layout_marginStart="15dp"
+        android:layout_marginTop="130dp"
+        android:layout_marginEnd="15dp"
+        android:layout_marginBottom="15dp"
+        android:layout_toStartOf="@id/txtcenter"
+        android:background="@drawable/vien_trans_all"
+        android:clickable="true"
+        android:focusable="true">
+
+
+        <Button
+            android:id="@+id/button_end"
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:layout_marginStart="15dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginEnd="15dp"
+            android:layout_marginBottom="15dp"
+            android:text="End" />
+    </RelativeLayout>
+
+</RelativeLayout>
+
+
+
+
+
+    <!--    <TimePicker-->
+    <!--        android:id="@+id/time_picker"-->
+    <!--        android:layout_width="888dp"-->
+    <!--        android:layout_height="0dp"-->
+    <!--        android:layout_marginBottom="14dp"-->
+    <!--        android:timePickerMode="clock"-->
+    <!--        app:layout_constraintBottom_toTopOf="@+id/button"-->
+    <!--        app:layout_constraintEnd_toEndOf="parent"-->
+    <!--        app:layout_constraintHorizontal_bias="0.501"-->
+    <!--        app:layout_constraintStart_toStartOf="parent"-->
+    <!--        app:layout_constraintTop_toTopOf="parent" />-->

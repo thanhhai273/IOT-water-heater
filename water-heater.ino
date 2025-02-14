@@ -156,3 +156,4 @@ void dht1(){
  delay(1000);
  Serial.println(); 
 }
+//test

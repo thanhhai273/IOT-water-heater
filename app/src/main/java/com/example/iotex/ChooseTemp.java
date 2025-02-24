@@ -48,6 +48,7 @@ public class ChooseTemp extends AppCompatActivity {
                 mDatabase = FirebaseDatabase.getInstance().getReference();
                 mDatabase.child(email).child(today).child("tem_auto").setValue(tempInt);
                 Toast.makeText(ChooseTemp.this, "Temperature has been set", Toast.LENGTH_LONG).show();
+                return;
             }
         });
     }
